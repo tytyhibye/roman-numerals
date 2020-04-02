@@ -17,6 +17,7 @@
       <form id="romanNumerals">
         <div class="form-group">
           <label for="number">Enter a number and be amazed.</label> 
+          <input pattern="[0-9'']+" oninvalid="setCustomValidity('Enter one number only, please')" type="text" id="int">
         </div>
         <br>
         <button type="submit" class="btn btn-danger">Romanize!</button>
